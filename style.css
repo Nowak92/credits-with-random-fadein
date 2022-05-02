@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+h2 {
+    font-size: 2rem;
+}
+
+.credits-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.profile-card {
+    background-size: cover;
+    background-position: center;
+    height: 25vw;
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.profile-img {
+   width: 100%;
+   height: 100%;
+}
+.profile-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0%;
+    transition: .5s;
+}
+.profile-text-container:hover {
+    opacity: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.a {
+    background-image: url(images/credits/profile-1.jpg);
+}
+.b {
+    background-image: url(images/credits/profile-2.jpg);
+}
+.c {
+    background-image: url(images/credits/profile-3.jpg);
+}
+.d {
+    background-image: url(images/credits/profile-4.jpg);
+}
+.e {
+    background-image: url(images/credits/profile-5.jpg);
+}
+.f {
+    background-image: url(images/credits/profile-6.jpg);
+}
+.g {
+    background-image: url(images/credits/profile-7.jpg);
+}
+.h {
+    background-image: url(images/credits/profile-8.jpg);
+}
+.i {
+    background-image: url(images/credits/profile-9.jpg);
+}
+
+
+.profile-card {
+    transition: .5s;
+}
